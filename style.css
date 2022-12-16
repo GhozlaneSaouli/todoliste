@@ -1,0 +1,58 @@
+body {
+  background-color: aqua;
+}
+
+.container {
+  border-radius: 8px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 2rem 20rem;
+  padding: 2rem;
+}
+
+.containerRow {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  height: 2.5rem;
+  align-content: center;
+  font-size: large;
+}
+
+input {
+  width: 80%;
+  padding: 7px;
+}
+
+.add {
+  width: 20%;
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+}
+
+.delete {
+  width: 20%;
+  background-color: rgb(230, 107, 107);
+  color: white;
+  font-weight: bold;
+}
+
+.containerRow div {
+  width: 80%;
+  background-color: rgb(245, 244, 241);
+  padding: 7px;
+}
+
+.containerRow h3 {
+  width: 80%;
+}
+
+.listToDo {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
